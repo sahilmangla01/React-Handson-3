@@ -9,7 +9,7 @@ class DisplayData extends Component{
 
     render(){
         return(
-            <>
+            <div className="main">
             <h1>EMPLOYEE FEEDBACK DATA</h1>
             <div className="Output">
                 {
@@ -24,7 +24,7 @@ class DisplayData extends Component{
 
             </div>
                 <button onClick={this.props.toggle}>Go Back</button>
-            </>
+            </div>
         )
     }
 }

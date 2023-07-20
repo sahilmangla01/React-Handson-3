@@ -38,6 +38,9 @@ button{
   margin-top: 40px;
   margin-bottom: 20px;
 }
+#name{
+  margin-top: 40px;
+}
 
 @media only screen and (min-width:350px) and (max-width:500px){
   body{
